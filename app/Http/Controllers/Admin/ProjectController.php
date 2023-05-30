@@ -11,7 +11,6 @@ use App\Models\Type;
 class ProjectController extends Controller
 {
    public function home() {
-      echo "beeeeeeellla";
       return view("home");
    }
 
